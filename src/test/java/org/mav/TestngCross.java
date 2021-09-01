@@ -45,7 +45,7 @@ public class TestngCross {
 			 driver.findElement(By.id("login")).click();
 			 Thread.sleep(4000);
 			 driver.close();
-}
+    	}
 
     }
     
