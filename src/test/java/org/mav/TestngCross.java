@@ -39,6 +39,12 @@ public class TestngCross {
 		 driver.findElement(By.id("login")).click();
 		 Thread.sleep(4000);
 		 driver.close();
+		 WebElement findElement1 = driver.findElement(By.id("username"));
+			findElement.sendKeys("suguAravind");
+			 driver.findElement(By.id("password")).sendKeys("sugu@3005");
+			 driver.findElement(By.id("login")).click();
+			 Thread.sleep(4000);
+			 driver.close();
 }
 
     }
